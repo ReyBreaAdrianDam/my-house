@@ -28,6 +28,8 @@ public class Picture
     /**
      * Draw this picture.
      */
+    
+    
     public void draw()
     {
         wall = new Square();
@@ -68,7 +70,16 @@ public class Picture
         
         
     }
-
+    
+    
+    public void atardecer()
+    {
+     
+        
+        sun.slowMoveVertical(120);
+        
+        
+    }
     /**
      * Change this picture to black/white display
      */
